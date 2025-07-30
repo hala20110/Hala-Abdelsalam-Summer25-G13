@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  background: url('buildings.jpeg') no-repeat center center fixed;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-size: 26px;
+  padding: 15px 0;
+}
+
+.logo span {
+  color: orange;
+  font-weight: 100;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+.content {
+  margin-top: 80px;
+}
+.left h1 span{
+  color: orange;
+  font-weight: 200;
+  
+}
+.left {
+  width: 60%;
+  float: left;
+}
+.left h1{
+  font-size: 300%;
+  margin-bottom: 2%;
+}
+
+.left h2 {
+  /*font-size: 32px;*/
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  color: rgb(209, 205, 205);
+  margin-bottom: 5%;
+}
+.left hr{
+  border: 2px solid;
+  height: 0.5px;
+  width: 10%;
+  margin-bottom: 5%;
+  
+  
+}
+
+.left button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.right {
+  width: 35%;
+  float: right;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.right h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.right h3 span {
+  color: orange;
+}
+
+.right form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.right form button {
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
